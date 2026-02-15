@@ -30,6 +30,12 @@
 	font-style: normal;
 }
 
+.sidenave img {
+	width: 10%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
 #bar {
 	height: 3px;
 	width: 100%;
@@ -63,7 +69,6 @@ a {
 	color: var(--black);
 	font-family: "Baskervville", serif;
 	padding: 0 20px;
-	margin-left: calc(100% - 200px);
 }
 
 #hero h1 {
@@ -74,4 +79,32 @@ a {
 #hero p {
 	font-size: 30px;
 	margin-bottom: 20px;
+}
+
+/* About Styles */
+
+#about {
+	justify-content: center;
+	height: fit-content;
+	background-color: var(--white);
+	color: var(--black);
+	font-family: "Baskervville", serif;
+	padding: 0 20px;
+}
+
+#about h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+#about p {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 30%;
 }
