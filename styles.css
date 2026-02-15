@@ -30,17 +30,18 @@
 	font-style: normal;
 }
 
-.sidenave img {
-	width: 10%;
+.sidenav img {
+	width: 100%;
 	height: auto;
 	margin-bottom: 20px;
 }
 
-#bar {
+.bar {
 	height: 3px;
 	width: 100%;
 	background-color: var(--accent);
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
 .box {
@@ -110,4 +111,29 @@ a {
 	width: 30%;
 }
 
+/* Staff Styles */
 
+#staff {
+	justify-content: center;
+	height: fit-content;
+	background-color: var(--white);
+	color: var(--black);
+	font-family: "Baskervville", serif;
+	padding: 0 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.card {
+	background-color: var(--main);
+	color: var(--black);
+	width: 300px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
