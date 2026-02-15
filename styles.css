@@ -11,6 +11,8 @@
 	padding: 0;
 }
 
+/* Nav Styles */
+
 .sidenav {
 	height: 100%;
 	width: 200px;
@@ -50,4 +52,26 @@ a {
 	font-size: 25px;
 	color: var(--main);
 	display: block;
+}
+
+/* Hero Styles */
+
+#hero {
+	justify-content: center;
+	height: fit-content;
+	background-color: var(--white);
+	color: var(--black);
+	font-family: "Baskervville", serif;
+	padding: 0 20px;
+	margin-left: calc(100% - 200px);
+}
+
+#hero h1 {
+	font-size: 90px;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 30px;
+	margin-bottom: 20px;
 }
