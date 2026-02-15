@@ -146,3 +146,19 @@ a {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	text-align: center;
 }
+#menu{
+	display:flex;
+	background-color: var(--main);
+	color: var(--black);
+	width: 300px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	text-align: center;
+	justify-content: center;
+	
+}
+#menu h3{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
